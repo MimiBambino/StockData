@@ -65,5 +65,6 @@ class gtrends:
 
 # Collect data thusly:
 # gt = gtrends(<username>, <password>)
-# vol = gt.get_volume(terms = ["iphone", "ipad"])
+vol = gt.get_volume(terms = ["iphone", "ipad"])
+print vol
 # vol2 = gt.get_volume(terms = ["iphone", "ipad"], daily = False)
